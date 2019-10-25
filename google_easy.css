@@ -2,149 +2,94 @@
 Odin project
 HTML/CSS
 */
-body {
-    font-family: Arial, Helvetica, sans-serif;
+
+
+body{
+	font-family: sans-serif;
+	margin: 0;
+	height: 100%
+	background:rgb(255,255,255);
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
 
-  .left_nav {
-    float: left;
-  }
-
-  .right_nav {
-    float: right;
-  }
-
-  .left {
-    float: left;
-  }
-
-  .right {
-    float: left;
-  }
-
-  .links {
-    margin-top: 13px;
-    margin-left: 24px;
-  }
-
-  .links a {
-    color: #000;
-  }
-
-  a {
-    font-size: 13px;
-    /*color: rgba(0,0,0,.54); */
-    /* color: #2f2b2b; */
-    color: #5f6368;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  .img_right {
-    height: 46px;
-    width: 46px;
-    margin-top: 0px;
-    margin-left: 10px;
-    margin-right: 8px;
-  }
-
-  #apps, #bell {
-    height: 25px;
-    width: 25px;
-    margin-top: 9px;
-    margin-left: 18px;
-    margin-right: 0px;
-  }
-
-.search-elements {
-    width: 100%;
-    height: 52%;
-    margin: auto;
-    position: absolute;
-    top: 40px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-.logo {
-    display: block;
-    width: 22%;
-    margin: 0px auto;
+nav {
+	padding: 15px;
 }
 
-.bar {
-    width: 46%;
-    margin: 15px auto 25px auto;
-    height: 42px;
-}
 
-.bar input {
-    width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    border: solid lightgray 1px;
+a{
+	text-decoration: none;
 
 }
 
-.buttons {
-    display: block;
-    width: 22%;
-    margin: 40px auto;
+input{
+	justify-content: center;
 }
 
-.search {
-    width: 46%;
-    float: left;
-    height: 36px;
+#upperpanel{
+	display: flex;
+	display: inline;
+
 }
 
-.lucky {
-    width: 50%;
-    float: right;
-    height: 36px;
+
+#glgo{height:233px;margin-top:89px}
+
+#googlelogo{
+	padding-top:109px
 }
 
-.search input, .lucky input {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(245, 245, 245);
-    font-size: 14px;
+.top-left{
+	float: left;
+	margin: 10px;
+}
+
+.top-right{
+	float: right;
+	margin: 10px;
+
+}
+
+.search_box {
+	justify-content: center;
+    border-radius: 20px;
+    padding-left: 50px;
+    width: 575px;
+    height: 45px;
+    border:rgb(223,225,229) 2px solid;
+    background-image: url(magnifying_glass_icon.png), url(https://icon-library.net/images/android-mic-icon/android-mic-icon-8.jpg);
+    background-size: 40px, 25px;
+    background-position: 2% 50%, 98% 50%;
+    background-repeat: no-repeat;
+    back
+}
+
+.google_buttons {
     border-radius: 5px;
+    margin: 30px 6px 8px 6px;
+    background-color: rgb(243,243,243);
+    color: rgb(95,99,104);
+    height: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
     border: none;
-    color: #5f6368;
+    font-size: 16px;
 }
 
-.bar input:hover, .bar input:active {
-    box-shadow: 2px 2px 8px lightgrey;
+.bottom-left {
+	float: left;
+	margin: 8px;
 }
 
-.search input:hover, .lucky input:hover {
-    border: solid lightgrey 1px;
-}
-
-.bottom-div {
+footer {
     position: absolute;
-    bottom: 0;
+    bottom:0;
     width: 100%;
-    height: 40px;
-    background-color:  rgb(245, 245, 245);
-    border-top: solid lightgrey 1px;
+    background-color: rgb(242,242,242);
 }
 
-.bottom-links {
-    margin-left: 30px;
-    margin-top: 10px;
-}
 
-#setting {
-    margin-right: 30px;
+.bottom-right {
+	float: right;
+	margin: 8px;
 }
